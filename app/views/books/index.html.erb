@@ -11,7 +11,11 @@
 <p>body</p>
 <span><%= book.body %></span>
 
+<div class="bottom">
+<%= link_to "Edit",edit_book_path(book.id) %>
+</div>
 <% end %>
+
 
 <h2>New book</h2>
 
