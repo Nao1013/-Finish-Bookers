@@ -21,7 +21,7 @@
 </span>
 
 <span>
-  <%= link_to "Delete", book_path(book.id), method: :delete "data-confir," => "Are you sure？" %>
+  <%= link_to "Destroy", book_path(book.id), method: :delete, "data-confirm" => "Are you sure?" %>
 </span>
 </div>
 <% end %>
